@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Capture The Flag - CTF | Hacker Security</title>
+  <meta charset="utf-8">
+<meta name="description" content="Conheça a plataforma de CTF da Hacker Security." />
+<meta name="keywords" content="ctf">
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Capture The Flag - CTF | Hacker Security" />
+<meta property="og:description" content="Conheça a plataforma de CTF da Hacker Security." />
+<meta property="og:site_name" content="Capture The Flag - CTF | Hacker Security" />
+<meta property="og:image" content="https://hackersec.com/wp-content/uploads/2020/05/ctf-hackersec-min.png" />
+<meta property="og:image:secure_url" content="https://hackersec.com/wp-content/uploads/2020/05/ctf-hackersec-min.png" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="504" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Conheça a plataforma de CTF da Hacker Security." />
+<meta name="twitter:title" content="Capture The Flag - CTF | Hacker Security" />
+<meta name="twitter:site" content="@HackerSec" />
+<meta name="twitter:image" content="https://hackersec.com/wp-content/uploads/2020/05/ctf-hackersec-min.png" />
+<meta name="twitter:creator" content="@HackerSec" />
+<meta name="author" content="Hacker Security">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300,500,700" debug="false" />
+
+<link href="css/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
+<link href="css/offcanvas.css" rel="stylesheet">
+<link href="css/all.min.css" rel="stylesheet" crossorigin="anonymous">
+<link href="css/hs.css" rel="stylesheet">
+  
+<script src="js/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<style type="text/css">
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    }
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+  }
+  .jumbvideo {
+      position: static;
+      overflow: hidden;
+      background-color: black;
+      width:100%;
+      height:100%;
+  }
+  .jumbvideo video {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.3;
+  }
+  .jumbvideo .container {
+    z-index: 2;
+    position: relative;
+  }
+</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73691502-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-73691502-1');
+</script>
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark-menu">
+  <a class="btn btn-outline-primary" href="index"><i class="fas fa-terminal"></i> Capture The Flag</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav ml-auto">
+    
+      <li class="nav-item">
+        <a class="nav-link" href="top"><i class="fas fa-award"></i> TOP</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="login"><i class="fas fa-sign-in-alt"></i> ENTRAR</a> 
+      </li>
+  
+    </ul>
+  </div>
+
+</nav>
+
+<div class="nav-scroller bg-hs-sec">
+  <nav class="nav nav-underline">
+    <a class="nav-link text-white">Realtime</a>
+
+<marquee width="100%" behavior="alternate" scrollamount="2">
+<div class="nav-link">
+<a href="player/L35"><code style="color:#007FFF">L35</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Maps</code><code class="text-white"> | </code>
+<a href="player/ripper roo"><code style="color:#007FFF">ripper roo</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Maps</code><code class="text-white"> | </code>
+<a href="player/tgowil"><code style="color:#007FFF">tgowil</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Noob</code><code class="text-white"> | </code>
+<a href="player/prdlzr_"><code style="color:#007FFF">prdlzr_</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Maps</code><code class="text-white"> | </code>
+<a href="player/queirozrqr"><code style="color:#007FFF">queirozrqr</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">UserEmail-email</code><code class="text-white"> | </code>
+<a href="player/L35"><code style="color:#007FFF">L35</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Noob</code><code class="text-white"> | </code>
+<a href="player/Le4o"><code style="color:#007FFF">Le4o</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Telegrafo</code><code class="text-white"> | </code>
+<a href="player/vulgomths"><code style="color:#007FFF">vulgomths</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">WelcomeCTF-php</code><code class="text-white"> | </code>
+<a href="player/Telegrago"><code style="color:#007FFF">Telegrago</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Noob</code><code class="text-white"> | </code>
+<a href="player/prdlzr_"><code style="color:#007FFF">prdlzr_</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Oreo</code><code class="text-white"> | </code>
+<a href="player/messier64"><code style="color:#007FFF">messier64</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Ascii Matrix</code><code class="text-white"> | </code>
+<a href="player/clanos"><code style="color:#007FFF">clanos</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Telegrafo</code><code class="text-white"> | </code>
+<a href="player/Drackis"><code style="color:#007FFF">Drackis</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Ascii Matrix</code><code class="text-white"> | </code>
+<a href="player/Le4o"><code style="color:#007FFF">Le4o</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Maps</code><code class="text-white"> | </code>
+<a href="player/AntonioAlexandreFrizaniJunior"><code style="color:#007FFF">AntonioAlexandreFrizaniJunior</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Hash Button</code><code class="text-white"> | </code>
+<a href="player/messier64"><code style="color:#007FFF">messier64</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Noob</code><code class="text-white"> | </code>
+<a href="player/little_ugly"><code style="color:#007FFF">little_ugly</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Maps</code><code class="text-white"> | </code>
+<a href="player/prdlzr_"><code style="color:#007FFF">prdlzr_</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Telegrafo</code><code class="text-white"> | </code>
+<a href="player/AntonioAlexandreFrizaniJunior"><code style="color:#007FFF">AntonioAlexandreFrizaniJunior</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Oreo</code><code class="text-white"> | </code>
+<a href="player/vulgomths"><code style="color:#007FFF">vulgomths</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">SistemaEscola-prof</code><code class="text-white"> | </code>
+<a href="player/L35"><code style="color:#007FFF">L35</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Telegrafo</code><code class="text-white"> | </code>
+<a href="player/AntonioAlexandreFrizaniJunior"><code style="color:#007FFF">AntonioAlexandreFrizaniJunior</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Maps</code><code class="text-white"> | </code>
+<a href="player/LMT"><code style="color:#007FFF">LMT</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Noob</code><code class="text-white"> | </code>
+<a href="player/prdlzr_"><code style="color:#007FFF">prdlzr_</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Noob</code><code class="text-white"> | </code>
+<a href="player/vulgomths"><code style="color:#007FFF">vulgomths</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">AdminNoobMachine-user</code><code class="text-white"> | </code>
+<a href="player/UmPorTodosTodosPorUmEncoder"><code style="color:#007FFF">UmPorTodosTodosPorUmEncoder</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">SistemaEscola-admin</code><code class="text-white"> | </code>
+<a href="player/tgowil"><code style="color:#007FFF">tgowil</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Telegrafo</code><code class="text-white"> | </code>
+<a href="player/Le4o"><code style="color:#007FFF">Le4o</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">Noob</code><code class="text-white"> | </code>
+<a href="player/vulgomths"><code style="color:#007FFF">vulgomths</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">WelcomeCTF-admin</code><code class="text-white"> | </code>
+<a href="player/vulgomths"><code style="color:#007FFF">vulgomths</code></a> <code class="text-white">resolveu o desafio</code> <code style="color:#007FFF">AdminNoobMachine-root</code><code class="text-white"> | </code>
+   
+</div> 
+</marquee>
+
+  </nav>
+</div>
+
+
+
+<div class="modal fade" id="vip" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-hs-sec">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel"><b>SEJA VIP</b></h4>
+        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+              <center> 
+            <div class="d-flex justify-content-center">
+              <span class="h5 mb-0 mt-3">R$&nbsp;</span>
+              <span class="price display-2">19</span>
+              <span class="h5 mb-0 mt-3">90</span>
+              <span class="h5 align-self-end mb-2">/mês</span>
+            </div> 
+          <ul class="list-unstyled mt-3 mb-4">
+            <li><i class="fas fa-check"></i> Acesso as máquinas resolvidas</li>
+            <li><i class="fas fa-check"></i> VPN de alta performance</li>
+            <li><i class="fas fa-check"></i> Acesso VIP no HStrike</li>
+            <li><i class="fas fa-check"></i> Ative e cancele quando quiser</li>
+          </ul>
+          <a class="btn btn-lg btn-block btn-outline-success" href="http://pag.ae/7WmS5jq16" target="t_blank">Atualizar</a>
+        </center>
+            </div>
+      <div class="modal-footer">
+        Todos alunos da Hacker Security são VIPs
+      </div>
+    </div>
+  </div>
+</div>
+<div class="jumbvideo jumbvideo-fluid">
+<video autoplay muted loop>    
+  <source src="img/video.mp4" type="video/mp4">
+ </video>
+    <div class="container">
+      	<center><br><br>
+          	<h1 class="display-3">Aprenda <strong>jogando</strong> e <strong>competindo</strong>.</h1><br>
+          	<p class="display">Desafios hacker reais, desenvolvidos pelos especialistas de cibersegurança mais conhecidos do Brasil.</p><br>
+  			<a class="btn btn-outline-primary btn-lg" href="login">COMECE A JOGAR</a>
+        </center>
+    </div>
+</div>
